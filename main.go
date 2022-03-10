@@ -10,7 +10,7 @@ func main() {
 
 	// Ambil nama default printer di windows
 	printerName, _ := printer.Default()
-
+	
 	// Membuka printer
 	p, err := printer.Open(printerName)
 	if err != nil {
